@@ -4,7 +4,7 @@ from eth_account.signers.base import BaseAccount
 from web3 import Web3
 from web3.contract import Contract
 from eth_typing import HexStr
-from web3.types import TxReceipt, TxParams
+from web3.types import TxReceipt,  TxParams
 from zksync2.manage_contracts import contract_abi
 
 l2_bridge_abi_cache = None
